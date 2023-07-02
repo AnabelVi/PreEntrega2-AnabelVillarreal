@@ -366,15 +366,16 @@ footer{
 /* CSS productos.html */
 
 .tamanio-img-productos {
-    height: auto;
+    height: 100%;
     width: 100%;
-    /* object-fit: cover; */
+    object-fit: cover;
+    border: solid 0.25px black;
     /* aspect-ratio: 50%; */
 }
 
 .grid-productos-html {
     display: grid;
-    width: 99%;
+    width: 100%;
 }
 
 .grid-area-pruductos {
