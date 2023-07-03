@@ -365,6 +365,26 @@ footer{
 
 /* CSS productos.html */
 
+.actions-search {
+    color: #4B637D;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+    align-items: center;
+
+}
+.actions-search button {
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    color: #4B637D;
+    padding: 6px;
+}
+.actions-search input{
+    border-radius: 3px;
+    background-color: rgb(243, 245, 245);
+}
+
 .tamanio-img-productos {
     height: 100%;
     width: 100%;
@@ -372,6 +392,12 @@ footer{
     border: solid 0.25px black;
     /* aspect-ratio: 50%; */
 }
+
+
+/* featuredGridElement h2 {
+    z-index: 2;
+    position: relative;
+} */
 
 .grid-productos-html {
     display: grid;
