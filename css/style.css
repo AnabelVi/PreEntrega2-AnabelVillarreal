@@ -92,13 +92,15 @@ body{
                 /* float: left; */
                 margin: 22px 18px;
                 padding-left: 20px;
-                display: inline-block;          
+                /* display: inline-block;          */
+                display: inline-flex;
             }
             nav ul li a{
                 font-size: 1.6rem;
                 text-decoration: none;
-                color: white;
+                color: #4B637D;
                 margin-right: 20px;
+                font-weight: bolder;
             }
                 nav.scroll {
                     padding: 10px;
@@ -305,7 +307,7 @@ footer{
     display: flex;
     height: 535px;
     width: 100%;
-    padding-top: -5px;
+    object-fit: cover;
 }
     /* nav.scroll span {
         font-size: 18px;
@@ -399,12 +401,11 @@ footer{
     position: relative;
 } */
 
-.grid-productos-html {
-    display: grid;
-    width: 100%;
-}
+
 
 .grid-area-pruductos {
+    display: grid;
+    width: 100%;
     grid-template-columns: repeat(4 25%);
     grid-template-rows: repeat(4 25%);
     grid-template-areas: 
@@ -453,9 +454,9 @@ footer{
     grid-area: imagen10;
 }
 
-/* breakpoints */
+/* breakpoints - Inicia Responsive */
 
-@media (width < 1200px) {
+@media (width < 1024px) {
     .grid-area-pruductos{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(6,1fr);
@@ -467,6 +468,53 @@ footer{
         "imagen7 imagen8"
         "imagen10 imagen10";
     }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav ul li{
+        /* color: white; */
+        /* float: left; */
+        margin: 22px 18px;
+        padding-left: 20px;
+        display: inline-block; 
+        justify-content: center;
+    }
+
+    .logo-paraty {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-area-pruductos img:hover{
+        filter: grayscale(0.7);
+    }
+    /* .grid-area-pruductos img {
+        filter: invert(1);
+    } */
+}
+
+@media (width < 768px){
+    nav{
+        flex-direction: column;
+    }
+    nav .logo-paraty {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer div:nth-child(2){
+        margin-top: 10px;
+        margin-bottom: 5px;
+        }
 }
 
 @media (width < 480px) {
@@ -484,5 +532,11 @@ footer{
         "imagen8"
         "imagen9"
         "imagen10";
+    }
+
+    nav .logo-paraty {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
     }
 }
