@@ -25,7 +25,9 @@ h1{
 }
 
 h2 {
-    color:#D98162;
+    color: #4B637D;
+    /* #EBC3B5; */
+    /* #D98162; */
 }
 
 .h2-productos-personalizados{
@@ -75,7 +77,7 @@ body{
         height: auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         align-items: center;
         border-bottom: solid 0.5px black;
         transition: all ease .65s;
@@ -107,9 +109,14 @@ body{
                     background: rgb(247, 215, 203);
                     /* #CFE6E6   anterior:#E2E3E3,  #579488 #B1E0D7 #B1E0D8 #e6c2b5*/
                     position: fixed;
-                    height: 9%;
+                    height: 11%;
                     display: flex;
                 }
+
+                    nav.scroll .logo-paraty{
+                        display: flex;
+                        flex-direction: row;
+                    }
 
                     nav.scroll span {
                         font-size: 1.6rem;
@@ -119,8 +126,22 @@ body{
                         nav.scroll li a{
                         color: #4B637D;
                         font-weight: bold;
+                        font-size: 1.8em;
                         }
                         
+
+.botonera{
+    background-color: #F7D7CB;
+}
+    .botonera img {
+        width: 150px;
+    }
+
+    .botonera a{
+        color: #4B637D;
+        font-size: 1.8em;
+    }
+
 
 .logo-paraty{
     background-color: none;
@@ -132,7 +153,7 @@ body{
 /* ends nav elements */
 
 .display-content {
-    display: inline-block;
+    /* display: inline-block; */
     padding: 0 10px;
 }
 
@@ -504,10 +525,18 @@ footer{
         flex-direction: column;
     }
     nav .logo-paraty {
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        display: flex;
     }
+        nav.scroll span .logo-paraty{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            position: fixed;
+            border: red 2px solid;
+        }
+
     footer {
         flex-direction: column;
     }
@@ -540,3 +569,6 @@ footer{
         display: flex;
     }
 }
+
+/* #F8ECD4
+#AABE9B */
