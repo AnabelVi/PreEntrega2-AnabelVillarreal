@@ -142,6 +142,11 @@ body{
         font-size: 1.8em;
     }
 
+.img-carousels {
+    height: 80vh;
+    object-fit: cover;
+}
+
 
 .logo-paraty{
     background-color: none;
