@@ -140,6 +140,7 @@ body{
     .botonera a{
         color: #4B637D;
         font-size: 1.8em;
+        font-weight: bolder;
     }
 
 .img-carousels {
@@ -147,6 +148,25 @@ body{
     object-fit: cover;
 }
 
+/* color de la botonera de cards "Comprar" */
+.bg-pink {
+    background-color: #F7D7CB;
+    color: #4B637D;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* color texto de la botonera de cards */
+.color-p-cards {
+    color: rgba(75, 99, 125, 0.85);
+    font-size: 1.7em;
+}
+
+/* color titulo de la botonera de cards */
+.color-h3-cards {
+    color: #4B637D;
+    font-weight: bold;
+}
 
 .logo-paraty{
     background-color: none;
