@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans:ital,wght@0,400;1,300&family=Lexend+Deca:wght@300;400&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(243, 237, 237);
+}
+
+h1,
+h2,
+h3 {
+  color: #4B637D;
+  padding-left: 10px;
+}
+
+.h2-productos-personalizados {
+  font-size: 1.4em;
+  padding: 5px 10px;
+  margin: 0.5% 0.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.h2-productos-personalizados span {
+  padding-right: 50px;
+  color: #4B637D;
+}
+
+p {
+  color: #9EA7B0;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+/* CSS Nav */
+nav {
+  background-color: #F7D7CB;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: solid 0.5px rgb(8, 8, 8);
+  transition: all ease 0.65s;
+  z-index: 100;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 22px 18px;
+  padding-left: 20px;
+  display: inline-flex;
+}
+nav ul li a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #4B637D;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+
+.botonera {
+  background-color: #F7D7CB;
+}
+.botonera img {
+  width: 200px;
+}
+.botonera a {
+  color: #F7D7CB;
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+//comunes a todo el proyecto
+
+//selector universal
+*{
+    padding: $ceroPadding;
+    margin: $ceroMargin;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+//body
+body{
+    margin: $ceroMargin;
+    background-color: $whiteColor;
+}
+
+//h
+h1,
+h2,
+h3{
+    color: $mainColorFonts;
+    padding-left: 10px;
+}
+
+.h2-productos-personalizados{
+    font-size: $textLg;
+    padding: 5px 10px;
+    margin: 0.5% 0.5%;
+    display: flex;
+    justify-content: space-between;
+    span{
+        padding-right: 50px;
+        color: $mainColorFonts;
+    }
+}
+
+
+//parrafo
+p{
+    color: $secondColorFontsp;
+    font-weight: $textLight;
+    font-size: $textXl;
+}

@@ -1,0 +1,48 @@
+/* CSS Nav */
+nav{
+    background-color: $mainColor; 
+    width: $width100;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid 0.5px $blackColor;
+    transition: all ease .65s;
+    z-index: 100;
+
+    ul{
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        
+        li{
+            margin: 22px 18px;
+            padding-left: 20px;
+            display: inline-flex;
+            a{
+                font-size: 1.6rem;
+                text-decoration: none;
+                color: $mainColorFonts;
+                margin-right: 20px;
+                font-weight: $textBolder;
+            }
+        }
+    }
+
+}
+
+
+//botonera de nav
+.botonera{
+    background-color: $botoneraColor;
+    img{
+        width: 200px;
+    }
+    a{
+        color: $mainColor;
+        font-size: $textLg;
+        font-weight: $textBolder;
+    }
+}
+
