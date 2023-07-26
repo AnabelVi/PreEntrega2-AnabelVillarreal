@@ -1,7 +1,7 @@
 /* CSS Nav */
 nav{
     background-color: $mainColor; 
-    width: $width100;
+    width: $width100percent;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -13,8 +13,8 @@ nav{
     ul{
         list-style: none;
         display: flex;
-        margin: 0;
-        padding: 0;
+        margin: $ceroMargin;
+        padding: $ceroPadding;
         
         li{
             margin: 22px 18px;
@@ -44,5 +44,14 @@ nav{
         font-size: $textLg;
         font-weight: $textBolder;
     }
+}
+
+// configuracion logo paraty de la nav
+.logo-paraty{
+    background-color: none;
+    margin-bottom: 5px;
+    margin-top: 6px;
+    width: 35%;
+    padding-left: 20px;
 }
 
