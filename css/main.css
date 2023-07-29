@@ -69,6 +69,26 @@ nav ul li a {
   margin-right: 20px;
   font-weight: bolder;
 }
+nav nav.scroll {
+  padding: 10px;
+  background: #F7D7CB;
+  position: fixed;
+  height: 11%;
+  display: flex;
+}
+nav nav.scroll .logo-paraty {
+  display: flex;
+  flex-direction: row;
+}
+nav nav.scroll span {
+  font-size: 1.4em;
+  color: rgb(243, 237, 237);
+}
+nav nav.scroll li a {
+  color: #4B637D;
+  font-weight: bold;
+  font-size: 2em;
+}
 
 .botonera {
   background-color: #F7D7CB;

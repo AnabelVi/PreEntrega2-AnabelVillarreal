@@ -29,11 +29,30 @@ nav{
             }
         }
     }
-
+    nav.scroll {
+        padding: 10px;
+        background: $mainColor;
+        position: fixed;
+        height: 11%;
+        display: flex;
+        .logo-paraty{
+            display: flex;
+            flex-direction: row;
+        }
+        span {
+            font-size: $textLg;
+            color: $whiteColor;
+        }
+        li a{
+            color: $mainColorFonts;
+            font-weight: bold;
+            font-size: $textXl;
+            }
+    }
 }
 
 
-//botonera de nav
+//botonera nav
 .botonera{
     background-color: $botoneraColor;
     img{

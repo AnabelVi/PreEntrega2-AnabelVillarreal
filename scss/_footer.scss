@@ -15,12 +15,12 @@ footer{
     ul{
         list-style: none;
         line-height: 18px;
-    }
-        ul li a{
-            color: #4B637D;
-            font-size: 1.4em;
+        li a{
+            color: $mainColorFonts;
+            font-size: $textLg;
             text-decoration: none;
         }
+    }
 }
 
 
