@@ -1,0 +1,25 @@
+// imagenes carousels
+.img-carousels {
+    height: 80vh;
+    object-fit: cover;
+}
+
+/* color de la botonera de cards "Comprar" */
+.bg-pink {
+    background-color: $botoneraColor;
+    color: $mainColor;
+    font-size: $textMd;
+    font-weight: bold;
+}
+
+/* color texto de la botonera de cards */
+.color-p-cards {
+    color: $colorTxtBotoneraCards;
+    font-size: $textXl;
+}
+
+/* color titulo de la botonera de cards */
+.color-h3-cards {
+    color: $mainColorFonts;
+    font-weight: bold;
+}

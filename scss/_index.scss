@@ -1,0 +1,48 @@
+.bg-delivery{
+    background-color: $bgColorDelivery;
+    font-weight: bold;
+    float: none;
+    display: flex;
+    width: $width100percent;
+    margin: $ceroMargin;
+    height: auto;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    font-size: $textLg;
+    border-bottom: solid 0.5px $blackColor;
+    border-top: solid 0.5px $blackColor;
+}
+
+.text-color-0A1326{
+    color: $deliveryColor;
+    // text-decoration-color: #D98162;
+}
+
+
+// first grid index
+.first-grid-index {
+    display: grid;
+    width: $width100percent;
+    grid-template-columns: 85% 15%;
+    grid-template-rows: 200px;
+}
+
+// productos en pag principal
+.img-productos-personalizados{
+    display: flex;
+    height: auto;
+    padding: $ceroPadding;
+}
+    /* .img-productos-personalizados figure img {
+        padding-left: 50%;
+        height: 90%;
+        width: 25%;
+        border: solid 0.5px black;
+    } */
+
+.img-productos-size {
+    height: 90%;
+    width: 25%;
+    border: solid 0.5px $blackColor;
+    border-top: 0;
+}

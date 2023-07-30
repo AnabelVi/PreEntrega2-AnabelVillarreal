@@ -39,6 +39,64 @@ p {
   font-size: 2em;
 }
 
+.bordes-contenedores {
+  border: solid 0.5px rgb(8, 8, 8);
+  /* border-top: 0; */
+  border-right: 0;
+  height: auto;
+  margin: 0;
+}
+
+.contenedor {
+  background-color: hsla(48, 22%, 91%, 0.302);
+  /* rgba(230, 186, 173, 0.302); */
+  /* width: 70%; */
+  height: auto;
+  margin-top: -3.5px;
+  margin-bottom: 0;
+  /* 50px 1px 1px; */
+  /* padding: 10px; */
+  padding-top: 0;
+  padding-left: 0.5%;
+  /* top - right - bottom - left */
+  border: solid 0.5px rgb(8, 8, 8);
+  /* overflow: auto; */
+  font-size: 2em;
+  /* float: flex; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* contenedor p{
+    flex-wrap: inherit;
+} */
+.contenedor-img-calidad {
+  height: 202px;
+  display: flex;
+  /* flex-direction: row; */
+  border: solid 0.5px rgb(8, 8, 8);
+  border-right: 0;
+  /* justify-content: center; */
+  margin-top: -3.5px;
+  margin-left: -0.5px;
+  width: 99.5135%;
+  object-fit: cover;
+}
+
+.img-header {
+  display: flex;
+  height: 535px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.display-content {
+  /* display: inline-block; */
+  padding: 0 10px;
+}
+
 /* CSS Nav */
 nav {
   background-color: #F7D7CB;
@@ -110,6 +168,76 @@ nav nav.scroll li a {
   padding-left: 20px;
 }
 
+.bg-delivery {
+  background-color: #B0A09E;
+  font-weight: bold;
+  float: none;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  height: auto;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  font-size: 1.4em;
+  border-bottom: solid 0.5px rgb(8, 8, 8);
+  border-top: solid 0.5px rgb(8, 8, 8);
+}
+
+.text-color-0A1326 {
+  color: #0A1326;
+}
+
+.first-grid-index {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 85% 15%;
+  grid-template-rows: 200px;
+}
+
+.img-productos-personalizados {
+  display: flex;
+  height: auto;
+  padding: 0;
+}
+
+/* .img-productos-personalizados figure img {
+    padding-left: 50%;
+    height: 90%;
+    width: 25%;
+    border: solid 0.5px black;
+} */
+.img-productos-size {
+  height: 90%;
+  width: 25%;
+  border: solid 0.5px rgb(8, 8, 8);
+  border-top: 0;
+}
+
+.img-carousels {
+  height: 80vh;
+  object-fit: cover;
+}
+
+/* color de la botonera de cards "Comprar" */
+.bg-pink {
+  background-color: #F7D7CB;
+  color: #F7D7CB;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* color texto de la botonera de cards */
+.color-p-cards {
+  color: rgba(75, 99, 125, 0.85);
+  font-size: 2em;
+}
+
+/* color titulo de la botonera de cards */
+.color-h3-cards {
+  color: #4B637D;
+  font-weight: bold;
+}
+
 /* CSS productos.html */
 .actions-search {
   color: #F7D7CB;
@@ -127,7 +255,7 @@ nav nav.scroll li a {
 }
 .actions-search input {
   border-radius: 3px;
-  background-color: rgb(243, 245, 245);
+  background-color: rgb(243, 237, 237);
 }
 
 .tamanio-img-productos {
@@ -186,6 +314,42 @@ nav nav.scroll li a {
   grid-area: imagen10;
 }
 
+.conactact-main {
+  padding-left: 10px;
+}
+
+form label {
+  color: #4B637D;
+  font-size: 1.4em;
+  display: block;
+}
+
+footer {
+  background-color: #F7D7CB;
+  padding: 6px 20px;
+  border-top: solid 0.5px rgb(8, 8, 8);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer svg {
+  width: 35px;
+  height: 35px;
+  fill: #9EA7B0;
+  margin-right: 10px;
+}
+footer ul {
+  list-style: none;
+  line-height: 18px;
+}
+footer ul li a {
+  color: #4B637D;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+/* ends footer elements */
 /* breakpoints - Inicia Responsive */
 @media (width < 1024px) {
   .grid-area-pruductos {
@@ -199,7 +363,7 @@ nav nav.scroll li a {
     align-items: center;
     justify-content: center;
   }
-  .grid-area-pruductos nav nav ul li {
+  .grid-area-pruductos nav ul li {
     margin: 22px 18px;
     padding-left: 20px;
     display: inline-block;
@@ -247,31 +411,5 @@ nav nav.scroll li a {
     display: flex;
   }
 }
-footer {
-  background-color: #F7D7CB;
-  padding: 6px 20px;
-  border-top: solid 0.5px rgb(8, 8, 8);
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-footer svg {
-  width: 35px;
-  height: 35px;
-  fill: #9EA7B0;
-  margin-right: 10px;
-}
-footer ul {
-  list-style: none;
-  line-height: 18px;
-}
-footer ul li a {
-  color: #4B637D;
-  font-size: 1.4em;
-  text-decoration: none;
-}
-
-/* ends footer elements */
 
 /*# sourceMappingURL=main.css.map */
