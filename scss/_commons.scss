@@ -2,11 +2,16 @@
 
 //selector universal
 *{
+    font-family: 'Merriweather', serif;
     padding: $ceroPadding;
     margin: $ceroMargin;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+}
+
+html{
+    font-size: 65.2%;
 }
 
 //body
@@ -39,7 +44,7 @@ h3{
 //parrafo
 p{
     color: $secondColorFontsp;
-    font-weight: $textLight;
+    // font-weight: $textLight;
     font-size: $textXl;
 }
 

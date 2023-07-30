@@ -15,13 +15,12 @@
 
 .text-color-0A1326{
     color: $deliveryColor;
-    // text-decoration-color: #D98162;
 }
 
 
 // first grid index
 .first-grid-index {
-    display: grid;
+    display: flex;
     width: $width100percent;
     grid-template-columns: 85% 15%;
     grid-template-rows: 200px;
@@ -45,4 +44,9 @@
     width: 25%;
     border: solid 0.5px $blackColor;
     border-top: 0;
+    object-fit: cover;
+}
+
+.p-index {
+    font-size: $textSm;
 }

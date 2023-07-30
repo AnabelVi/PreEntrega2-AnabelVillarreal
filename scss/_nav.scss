@@ -21,7 +21,7 @@ nav{
             padding-left: 20px;
             display: inline-flex;
             a{
-                font-size: 1.6rem;
+                font-size: $textBotoneraNav;
                 text-decoration: none;
                 color: $mainColorFonts;
                 margin-right: 20px;
@@ -46,7 +46,7 @@ nav{
         li a{
             color: $mainColorFonts;
             font-weight: bold;
-            font-size: $textXl;
+            font-size: $textBotoneraNav;
             }
     }
 }
@@ -59,8 +59,8 @@ nav{
         width: 200px;
     }
     a{
-        color: $mainColor;
-        font-size: $textLg;
+        color: $mainColorFonts;
+        font-size: $textBotoneraNav;
         font-weight: $textBolder;
     }
 }

@@ -2,11 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans:ital,wght@0,400;1,300&family=Lexend+Deca:wght@300;400&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
 * {
+  font-family: "Merriweather", serif;
   padding: 0;
   margin: 0;
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 65.2%;
 }
 
 body {
@@ -35,7 +40,6 @@ h3 {
 
 p {
   color: #9EA7B0;
-  font-weight: 300;
   font-size: 2em;
 }
 
@@ -121,7 +125,7 @@ nav ul li {
   display: inline-flex;
 }
 nav ul li a {
-  font-size: 1.6rem;
+  font-size: 1.8em;
   text-decoration: none;
   color: #4B637D;
   margin-right: 20px;
@@ -145,7 +149,7 @@ nav nav.scroll span {
 nav nav.scroll li a {
   color: #4B637D;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .botonera {
@@ -155,8 +159,8 @@ nav nav.scroll li a {
   width: 200px;
 }
 .botonera a {
-  color: #F7D7CB;
-  font-size: 1.4em;
+  color: #4B637D;
+  font-size: 1.8em;
   font-weight: bolder;
 }
 
@@ -188,7 +192,7 @@ nav nav.scroll li a {
 }
 
 .first-grid-index {
-  display: grid;
+  display: flex;
   width: 100%;
   grid-template-columns: 85% 15%;
   grid-template-rows: 200px;
@@ -211,6 +215,11 @@ nav nav.scroll li a {
   width: 25%;
   border: solid 0.5px rgb(8, 8, 8);
   border-top: 0;
+  object-fit: cover;
+}
+
+.p-index {
+  font-size: 0.8em;
 }
 
 .img-carousels {
@@ -221,15 +230,15 @@ nav nav.scroll li a {
 /* color de la botonera de cards "Comprar" */
 .bg-pink {
   background-color: #F7D7CB;
-  color: #F7D7CB;
-  font-size: 1em;
+  color: #4B637D;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
 /* color texto de la botonera de cards */
 .color-p-cards {
   color: rgba(75, 99, 125, 0.85);
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 /* color titulo de la botonera de cards */
@@ -336,8 +345,9 @@ footer {
 footer svg {
   width: 35px;
   height: 35px;
-  fill: #9EA7B0;
+  fill: #4B637D;
   margin-right: 10px;
+  text-decoration: none;
 }
 footer ul {
   list-style: none;
@@ -390,6 +400,9 @@ footer ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .p-index {
+    font-size: 0.6em;
   }
   footer {
     flex-direction: column;

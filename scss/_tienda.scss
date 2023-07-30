@@ -7,15 +7,15 @@
 /* color de la botonera de cards "Comprar" */
 .bg-pink {
     background-color: $botoneraColor;
-    color: $mainColor;
-    font-size: $textMd;
+    color: $mainColorFonts;
+    font-size: $sizeTextBotoneraCards;
     font-weight: bold;
 }
 
 /* color texto de la botonera de cards */
 .color-p-cards {
     color: $colorTxtBotoneraCards;
-    font-size: $textXl;
+    font-size: $fontSizeCards;
 }
 
 /* color titulo de la botonera de cards */

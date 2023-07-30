@@ -9,8 +9,9 @@ footer{
     svg {
         width: 35px;
         height: 35px;
-        fill: $secondColorFontsp;
+        fill: $mainColorFonts;
         margin-right: 10px;
+        text-decoration: none;
     }
     ul{
         list-style: none;
@@ -22,6 +23,4 @@ footer{
         }
     }
 }
-
-
 /* ends footer elements */
