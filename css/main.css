@@ -33,7 +33,10 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
-.h2-productos-personalizados span {
+.h2-productos-personalizados a {
+  text-decoration: none;
+}
+.h2-productos-personalizados a span {
   padding-right: 50px;
   color: #4B637D;
 }
